@@ -7,6 +7,12 @@ import android.support.v4.app.FragmentPagerAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
+import codingwithmitch.com.forsale.AccountFragment;
+import codingwithmitch.com.forsale.PostFragment;
+import codingwithmitch.com.forsale.SearchFragment;
+import codingwithmitch.com.forsale.ViewPostFragment;
+import codingwithmitch.com.forsale.WatchListFragment;
+
 /**
  * Created by User on 10/16/2017.
  */
@@ -18,14 +24,17 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     private final List<Fragment> mFragmentList = new ArrayList<>();
 
     public SectionsPagerAdapter(FragmentManager fm) {
+
         super(fm);
     }
 
-    public void addFragment(Fragment fragment){
+    public void addFragment(Fragment fragment) {
         mFragmentList.add(fragment);
     }
+
     @Override
     public Fragment getItem(int position) {
+
         return mFragmentList.get(position);
     }
 
@@ -34,3 +43,6 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         return mFragmentList.size();
     }
 }
+
+
+
