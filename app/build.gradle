@@ -6,7 +6,7 @@ android {
     defaultConfig {
         applicationId "codingwithmitch.com.forsale"
         minSdkVersion 16
-        targetSdkVersion 260
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -31,10 +31,16 @@ dependencies {
     //Design Support Library dependency
     implementation 'com.android.support:design:26.1.0'
 
+    //recyclerview
+    compile "com.android.support:recyclerview-v7:26.+"
+
 
     //Universal image loader
     implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
 
+
+    // ExitInterface support
+    compile "com.android.support:exifinterface:26.+"
     /*
         ---------- Firebase -----------
      */
