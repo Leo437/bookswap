@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "427010966921",
+    "firebase_url": "https://forsale-911eb.firebaseio.com",
+    "project_id": "forsale-911eb",
+    "storage_bucket": "forsale-911eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427010966921:android:59353c8d9b7e2b23",
+        "android_client_info": {
+          "package_name": "codingwithmitch.com.forsale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427010966921-2e2nn2q9kn99qbgfsjgmc9qdc0tmdej6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5f8ewK-TLpzJxSM1BTa-E30IlP5V9ynY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427010966921-2e2nn2q9kn99qbgfsjgmc9qdc0tmdej6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
